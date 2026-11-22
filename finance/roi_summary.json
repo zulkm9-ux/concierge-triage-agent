@@ -1,0 +1,167 @@
+{
+ "assumptions": {
+  "properties": 10,
+  "requests_per_property_day": 150,
+  "agent_share": 0.7,
+  "manual_min": 6.0,
+  "agent_min": 2.5,
+  "loaded_wage": 25.0,
+  "comp_budget": 200000,
+  "comp_leak_cut": 0.1,
+  "disputes_avoided": 15000,
+  "quick_share": 0.75,
+  "in_tok": 2207,
+  "out_tok": 250,
+  "quick_in": 1.0,
+  "quick_out": 5.0,
+  "cx_in": 5.0,
+  "cx_out": 25.0,
+  "token_buffer": 1.5,
+  "hosting_mo": 500,
+  "license_mo": 1500,
+  "dev_hours": 320,
+  "dev_rate": 90,
+  "gov_hours": 80,
+  "gov_rate": 110,
+  "concierges_per_property": 8,
+  "training_hours": 3,
+  "maint_fte": 0.2,
+  "maint_salary": 95000
+ },
+ "annual_requests": 547500,
+ "agent_requests": 383250.0,
+ "hours_saved_steady": 22356.25,
+ "cost_per_req_quick": 0.003457,
+ "cost_per_req_complex": 0.017285,
+ "cost_per_req_blended": 0.006914,
+ "routing_saving_pct": 60.0,
+ "steady_annual_value": 593906.25,
+ "y1_value": 470175.78125,
+ "y1_investment": 89746.62621874998,
+ "roi_pct": 423.8924303449418,
+ "payback_months": 3.6531803321850935,
+ "inv_break": {
+  "Setup & integration labor": 28800,
+  "Governance review & red teaming": 8800,
+  "Staff training": 6000.0,
+  "Closed-tenant AI licensing (12 mo)": 18000,
+  "Cloud hosting & logging (12 mo)": 6000,
+  "Prompt ops & maintenance (0.2 FTE)": 19000.0,
+  "API tokens (routed, incl. 50% buffer)": 3146.626218749999
+ },
+ "val_break": {
+  "Labor hours saved": 442465.77163904236,
+  "Comp over-approval avoided": 15833.273349118654,
+  "Disputes/chargebacks avoided": 11874.955011838989
+ },
+ "months": [
+  {
+   "month": 1,
+   "adoption": 0,
+   "requests": 0,
+   "value": 0,
+   "investment": 25383,
+   "token_cost": 0.0,
+   "cumulative_net": -25383
+  },
+  {
+   "month": 2,
+   "adoption": 0,
+   "requests": 0,
+   "value": 0,
+   "investment": 25383,
+   "token_cost": 0.0,
+   "cumulative_net": -50767
+  },
+  {
+   "month": 3,
+   "adoption": 0.5,
+   "requests": 15969,
+   "value": 24746,
+   "investment": 3749,
+   "token_cost": 165.61,
+   "cumulative_net": -29770
+  },
+  {
+   "month": 4,
+   "adoption": 1.0,
+   "requests": 31938,
+   "value": 49492,
+   "investment": 3915,
+   "token_cost": 331.22,
+   "cumulative_net": 15808
+  },
+  {
+   "month": 5,
+   "adoption": 1.0,
+   "requests": 31938,
+   "value": 49492,
+   "investment": 3915,
+   "token_cost": 331.22,
+   "cumulative_net": 61386
+  },
+  {
+   "month": 6,
+   "adoption": 1.0,
+   "requests": 31938,
+   "value": 49492,
+   "investment": 3915,
+   "token_cost": 331.22,
+   "cumulative_net": 106963
+  },
+  {
+   "month": 7,
+   "adoption": 1.0,
+   "requests": 31938,
+   "value": 49492,
+   "investment": 3915,
+   "token_cost": 331.22,
+   "cumulative_net": 152541
+  },
+  {
+   "month": 8,
+   "adoption": 1.0,
+   "requests": 31938,
+   "value": 49492,
+   "investment": 3915,
+   "token_cost": 331.22,
+   "cumulative_net": 198119
+  },
+  {
+   "month": 9,
+   "adoption": 1.0,
+   "requests": 31938,
+   "value": 49492,
+   "investment": 3915,
+   "token_cost": 331.22,
+   "cumulative_net": 243696
+  },
+  {
+   "month": 10,
+   "adoption": 1.0,
+   "requests": 31938,
+   "value": 49492,
+   "investment": 3915,
+   "token_cost": 331.22,
+   "cumulative_net": 289274
+  },
+  {
+   "month": 11,
+   "adoption": 1.0,
+   "requests": 31938,
+   "value": 49492,
+   "investment": 3915,
+   "token_cost": 331.22,
+   "cumulative_net": 334852
+  },
+  {
+   "month": 12,
+   "adoption": 1.0,
+   "requests": 31938,
+   "value": 49492,
+   "investment": 3915,
+   "token_cost": 331.22,
+   "cumulative_net": 380429
+  }
+ ]
+}
