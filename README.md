@@ -61,6 +61,19 @@ I've worked a high-volume concierge desk, so I know this bottleneck firsthand.
 
 *8 of 45 rows shown. Full file in `data/`.*
 
+### Live evaluation results (all 45 records, prompt v2, guardrails on)
+
+| Metric | Result |
+|---|---|
+| Exact approval-level match vs. answer key | **80%** (36/45) |
+| Never under-approved (never looser than policy) | **100%** (45/45). Every miss was *stricter* than needed, e.g. a routine complaint sent to a manager. |
+| Routed to the cheap quick tier | **73%** (model assumed ~75%) |
+| Actual AI cost | **$0.29 for all 45**, about **$0.0064 per request** (model assumed $0.0069) |
+
+![Tracker after scoring all 45 requests](screenshots/tracker.png)
+![Agent loop on REQ-1009, a $1,140 refund routed to the GM](screenshots/loop.png)
+![HITL gate: Concierge cannot approve a GM-level refund](screenshots/hitl.png)
+
 ---
 
 ## 3. Prompt architecture (CREATE framework)
@@ -351,5 +364,5 @@ ROI (%) = (Total Value − Total Investment) / Total Investment × 100
 
 **AI Workflow Architect: Concierge Triage Agent (Claude Artifacts)**
 - Designed and deployed an autonomous agentic workflow using Claude Artifacts and few-shot CREATE prompt engineering to automate hotel concierge request triage, grounding outputs in a 9-rule synthetic house policy and a 45-record synthetic dataset to eliminate hallucinated policy.
-- Implemented Human-in-the-Loop (HITL) role-based approval gates, Zero Trust Non-Human Identity (NHI) controls and adversarial red-team testing across 5 attack cases and 23 edge cases to ensure compliance with GDPR/SOC2 standards.
+- Implemented Human-in-the-Loop (HITL) role-based approval gates, Zero Trust Non-Human Identity (NHI) controls and adversarial red-team testing across 45 synthetic test cases (23 edge/adversarial), achieving zero under-approvals and 80% exact policy match, to support GDPR/SOC2 compliance.
 - Formulated a tiered LLM model-routing strategy (cutting token cost 60%) and CFO business case projecting a 424% first-year ROI and a 3.7-month payback period across 383,250 annual transactions.
