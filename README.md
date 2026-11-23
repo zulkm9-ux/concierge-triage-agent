@@ -7,7 +7,7 @@ Built by Syed Ali · BUAN 3301 AI in Business (UT Dallas) final capstone · Fall
 | | |
 |---|---|
 | **Live prototype** | https://claude.ai/artifact/1Sbap7oZqTmgjD8BgRzk5x (sign-in required for live AI; demo shown in video) |
-| **Video pitch (4 min)** | *(paste your Loom link here)* |
+| **Video pitch** | https://youtu.be/IzgcshtNZ7I |
 | **Domain** | Customer Service / Hospitality |
 | **Value lever** | Cost Reduction (primary), Risk Mitigation (secondary) |
 | **Build path** | Path A: the Agentic Loop (Perception → Reasoning → Action → Review) |
@@ -365,6 +365,7 @@ ROI (%) = (Total Value − Total Investment) / Total Investment × 100
 ## 11. Resume bullets
 
 **AI Workflow Architect: Concierge Triage Agent (Claude Artifacts)**
+
 - Designed and deployed an autonomous agentic workflow using Claude Artifacts and few-shot CREATE prompt engineering to automate hotel concierge request triage, grounding outputs in a 9-rule synthetic house policy and a 45-record synthetic dataset to eliminate hallucinated policy.
 - Implemented Human-in-the-Loop (HITL) role-based approval gates, Zero Trust Non-Human Identity (NHI) controls and adversarial red-team testing across 45 synthetic test cases (23 edge/adversarial), achieving zero under-approvals and 80% exact policy match, to support GDPR/SOC2 compliance.
 - Formulated a tiered LLM model-routing strategy (cutting token cost 60%) and CFO business case projecting a 424% first-year ROI and a 3.7-month payback period across 383,250 annual transactions.
